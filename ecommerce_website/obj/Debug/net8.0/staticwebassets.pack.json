@@ -1,0 +1,237 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\images\\19fb5257-d129-40cf-bbc5-f0d590fc49a8_UmbroCageFoot.jpg",
+      "PackagePath": "staticwebassets\\images\\19fb5257-d129-40cf-bbc5-f0d590fc49a8_UmbroCageFoot.jpg"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\images\\1be18664-3dbe-49f7-a643-e88df840004c_parfum_adidas.jpg",
+      "PackagePath": "staticwebassets\\images\\1be18664-3dbe-49f7-a643-e88df840004c_parfum_adidas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\images\\1c4a3109-295c-4401-bd54-03d494256e91_BlousonHommeVeste.jpg",
+      "PackagePath": "staticwebassets\\images\\1c4a3109-295c-4401-bd54-03d494256e91_BlousonHommeVeste.jpg"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\images\\1fca52b8-0e1c-47f1-93f8-537f3a6f1894_Bose.jpg",
+      "PackagePath": "staticwebassets\\images\\1fca52b8-0e1c-47f1-93f8-537f3a6f1894_Bose.jpg"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\images\\3e19ef45-0f84-47fd-b05e-354e8da210c6_sportGantGardien.jpg",
+      "PackagePath": "staticwebassets\\images\\3e19ef45-0f84-47fd-b05e-354e8da210c6_sportGantGardien.jpg"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\images\\4a172712-3223-42df-843d-359dd08879dc_dieselparfum1.jpg",
+      "PackagePath": "staticwebassets\\images\\4a172712-3223-42df-843d-359dd08879dc_dieselparfum1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\images\\681c35e1-68d8-423d-9699-cc4f1adac8e9_azzaroparfum.jpg",
+      "PackagePath": "staticwebassets\\images\\681c35e1-68d8-423d-9699-cc4f1adac8e9_azzaroparfum.jpg"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\images\\7cf9254f-4944-4203-b0ad-8e78f600f8b8_BallonChampionsLeague.jpg",
+      "PackagePath": "staticwebassets\\images\\7cf9254f-4944-4203-b0ad-8e78f600f8b8_BallonChampionsLeague.jpg"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\images\\97a252f9-3e91-488b-9fe4-c24a08d139fa_BossOmarisHomme.jpg",
+      "PackagePath": "staticwebassets\\images\\97a252f9-3e91-488b-9fe4-c24a08d139fa_BossOmarisHomme.jpg"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\images\\9f146e06-bafa-4ef0-b832-f3cecc94d801_NikonCam.jpeg",
+      "PackagePath": "staticwebassets\\images\\9f146e06-bafa-4ef0-b832-f3cecc94d801_NikonCam.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\images\\c6c4fe86-e581-4126-8fa0-554b356670ae_RealMadridMaillot.jpg",
+      "PackagePath": "staticwebassets\\images\\c6c4fe86-e581-4126-8fa0-554b356670ae_RealMadridMaillot.jpg"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\images\\d3cfeb72-0f5b-442d-9a25-03d2cc25fe67_HansenHommeVeste.jpg",
+      "PackagePath": "staticwebassets\\images\\d3cfeb72-0f5b-442d-9a25-03d2cc25fe67_HansenHommeVeste.jpg"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\images\\e0e0ac39-f718-460d-8d20-a860f0df2f9d_iphone14.jpg",
+      "PackagePath": "staticwebassets\\images\\e0e0ac39-f718-460d-8d20-a860f0df2f9d_iphone14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\images\\e6aa47cd-a46b-4c1b-8bb9-7083da38b635_dieselparfum1.jpg",
+      "PackagePath": "staticwebassets\\images\\e6aa47cd-a46b-4c1b-8bb9-7083da38b635_dieselparfum1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\images\\eff0dd2c-2d68-47c3-b994-105a2e1a7ff6_casque.jpeg",
+      "PackagePath": "staticwebassets\\images\\eff0dd2c-2d68-47c3-b994-105a2e1a7ff6_casque.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\images\\f815b7bd-8216-4b6d-9504-d75a62e3f4f2_badparfum.jpg",
+      "PackagePath": "staticwebassets\\images\\f815b7bd-8216-4b6d-9504-d75a62e3f4f2_badparfum.jpg"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\images\\fec3b247-328a-4480-a974-936a49058786_JacketVesteHomme.jpg",
+      "PackagePath": "staticwebassets\\images\\fec3b247-328a-4480-a974-936a49058786_JacketVesteHomme.jpg"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\images\\shopsphere.png",
+      "PackagePath": "staticwebassets\\images\\shopsphere.png"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\minou\\OneDrive\\Bureau\\TP.NET\\ecommerce_website\\ecommerce_website\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ecommerce_website.props",
+      "PackagePath": "build\\ecommerce_website.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ecommerce_website.props",
+      "PackagePath": "buildMultiTargeting\\ecommerce_website.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ecommerce_website.props",
+      "PackagePath": "buildTransitive\\ecommerce_website.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ecommerce_website.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

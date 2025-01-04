@@ -1,0 +1,197 @@
+﻿@page
+@model ecommerce_website.Pages.Produits.DetailsModel
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<h1 class="page-title">Product Details</h1>
+
+<section id="product1" class="section-p1">
+    <div class="product-container">
+        <div class="product">
+            <!-- Product Image -->
+            <img src="@Model.produit.imageUrl" alt="@Model.produit.nomProduit" class="product-image" />
+
+            <div class="product-description">
+                <!-- Product Name -->
+                <span class="product-name">@Model.produit.nomProduit</span>
+
+                <!-- Product Description -->
+                <h5 class="product-description-text">@Model.produit.description</h5>
+
+                <!-- Product Details -->
+                <div class="product-details">
+                    <p><strong>Category:</strong> @Model.produit.categorie.nomCategorie</p>
+                    <p><strong>Stock Quantity:</strong> @Model.produit.qteStock</p>
+                </div>
+
+                <!-- Product Rating -->
+                <div class="product-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+                <!-- Product Price -->
+                <h4 class="product-price">@Model.produit.prixProduit Dh</h4>
+            </div>
+
+            <!-- Add to Cart Form -->
+            <form method="post" asp-page-handler="AddToCart" class="add-to-cart-form">
+                <input type="hidden" name="ProductId" value="@Model.produit.id" />
+                <input type="hidden" name="ProductName" value="@Model.produit.nomProduit" />
+                <input type="hidden" name="Price" value="@Model.produit.prixProduit" />
+
+                <div class="input-group">
+                    <label for="quantity-@Model.produit.id">Quantity:</label>
+                    <input type="number" name="Quantity" id="quantity-@Model.produit.id" value="1" min="1" max="@Model.produit.qteStock" class="quantity-input" />
+                </div>
+
+                <button type="submit" class="add-to-cart-button">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Back Button -->
+<div class="back-link">
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+<!-- Styles -->
+<style>
+    .page-title {
+        text-align: center;
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+
+    #product1 {
+        background-color: #f9f9f9;
+        padding: 40px;
+    }
+
+    .product-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    .product-image {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .product-description {
+        margin-left: 20px;
+        flex-grow: 1;
+    }
+
+    .product-name {
+        font-size: 1.8em;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .product-description-text {
+        font-size: 1.1em;
+        color: #777;
+        margin: 10px 0;
+    }
+
+    .product-details {
+        margin: 10px 0;
+    }
+
+    .product-details p {
+        font-size: 1.1em;
+        margin: 5px 0;
+    }
+
+    .product-rating {
+        margin-top: 10px;
+        color: #ff9800;
+    }
+
+    .product-price {
+        font-size: 1.4em;
+        color: #333;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    .add-to-cart-form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .input-group {
+        margin-bottom: 15px;
+    }
+
+    .quantity-input {
+        padding: 10px;
+        width: 100px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        font-size: 1em;
+    }
+
+    .add-to-cart-button {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        font-size: 1.1em;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .add-to-cart-button i {
+        margin-right: 10px;
+    }
+
+    .add-to-cart-button:hover {
+        background-color: #45a049;
+    }
+
+    .back-link {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .back-link a {
+        text-decoration: none;
+        color: #333;
+        font-size: 1.2em;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .back-link a:hover {
+        background-color: #f1f1f1;
+    }
+</style>

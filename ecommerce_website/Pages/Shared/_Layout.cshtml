@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Ecommerce1</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <script src="https://kit.fontawesome.com/dad03e859c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Global styles */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        header .navbar {
+            background-color: #007bff;
+        }
+
+            header .navbar a.nav-link {
+                color: white !important;
+                font-weight: 600;
+                transition: color 0.3s ease;
+            }
+
+                header .navbar a.nav-link:hover {
+                    color: #dfe6f5 !important;
+                }
+
+        header .navbar-brand img {
+            height: 50px;
+        }
+
+        .form-inline input {
+            border: 2px solid #007bff;
+            border-radius: 30px;
+            padding: 5px 15px;
+        }
+
+        .form-inline button {
+            border-radius: 30px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 5px 15px;
+            font-weight: 600;
+        }
+
+            .form-inline button:hover {
+                background-color: #218838;
+            }
+
+        .panier-link {
+            color: white !important;
+            font-size: 1.2rem;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 10px 0;
+        }
+
+            footer a {
+                color: #007bff;
+                text-decoration: none;
+                font-weight: 600;
+            }
+
+                footer a:hover {
+                    text-decoration: underline;
+                }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-page="/Index">
+                    <img src="/images/shopsphere.png" alt="Website Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/Privacy">Privacy</a>
+                        </li>
+                    </ul>
+
+                    <form class="form-inline my-2 my-lg-0" method="get" asp-page="/Produits/Search">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Chercher un produit" name="nomProduit" aria-label="Search">
+                        <button class="btn my-2 my-sm-0" type="submit">Rechercher</button>
+                    </form>
+                    <a class="nav-link panier-link" asp-area="" asp-page="/Panier/Index">
+                        <i class="fas fa-shopping-cart"></i> ShoppingCart
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="text-center">
+        <div class="container">
+            &copy; 2024 - Ecommerce1 - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

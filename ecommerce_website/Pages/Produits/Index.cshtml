@@ -1,0 +1,187 @@
+﻿@page
+@model ecommerce_website.Pages.Produits.IndexModel
+
+@{
+    ViewData["Title"] = "Produits";
+}
+
+<section id="product1" class="section-p1">
+    <h2 class="section-title">Produits</h2>
+    <p class="section-subtitle">Nouvelle Collection</p>
+    <div class="pro-container">
+        @foreach (var item in Model.produit)
+        {
+            <div class="pro">
+                <img src="@item.imageUrl" alt="@item.nomProduit" class="product-image" />
+                <div class="des">
+                    <span class="product-name">@item.nomProduit</span>
+                    <h5 class="product-description">@item.description</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="product-price">@item.prixProduit €</h4>
+                </div>
+                <form method="post" asp-page-handler="AddToCart" class="add-to-cart-form">
+                    <input type="hidden" name="ProductId" value="@item.id" />
+                    <input type="hidden" name="idCategorie" value="@item.categorieId" />
+                    <div class="input-group">
+                        <label for="quantity">Quantité :</label>
+                        <input type="number" name="quantitySelected" id="quantitySelected" value="1" min="1" max="@item.qteStock" class="input-quantity" />
+                    </div>
+                    <button type="submit" class="btn btn-primary cart">
+                        <i class="fas fa-shopping-cart"></i> Ajouter au panier
+                    </button>
+                </form>
+                <div class="button-group">
+                    <a asp-page="./Details" asp-route-productId="@item.id" class="btn btn-details">
+                        <i class="fas fa-info-circle"></i> Détails
+                    </a>
+                </div>
+            </div>
+        }
+    </div>
+</section>
+
+<style>
+    /* Section Styling */
+    .section-p1 {
+        padding: 40px 20px;
+        background-color: #f8f9fa;
+        text-align: center;
+    }
+
+    .section-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #343a40;
+    }
+
+    .section-subtitle {
+        font-size: 1.2rem;
+        color: #6c757d;
+        margin-bottom: 30px;
+    }
+
+    /* Product Container */
+    .pro-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .pro {
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.3s, box-shadow 0.3s;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .pro:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Product Image */
+    .product-image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    /* Product Details */
+    .des {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .product-name {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #343a40;
+    }
+
+    .product-description {
+        font-size: 0.9rem;
+        color: #6c757d;
+        margin-top: 5px;
+    }
+
+    .star i {
+        color: #ffc107;
+        margin-right: 2px;
+    }
+
+    .product-price {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #28a745;
+        margin-top: 10px;
+    }
+
+    /* Add to Cart Form */
+    .add-to-cart-form {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .input-group {
+        margin-bottom: 10px;
+    }
+
+    .input-quantity {
+        width: 60px;
+        padding: 5px;
+        text-align: center;
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+    }
+
+    .btn-primary.cart {
+        background-color: #007bff;
+        border: none;
+        padding: 8px 15px;
+        font-size: 0.9rem;
+        border-radius: 20px;
+        color: #fff;
+        transition: background-color 0.3s;
+    }
+
+    .btn-primary.cart:hover {
+        background-color: #0056b3;
+    }
+
+    /* Details Button */
+    .btn-details {
+        display: inline-block;
+        background-color: #ffc107;
+        border: none;
+        padding: 8px 15px;
+        font-size: 0.9rem;
+        color: #343a40;
+        text-decoration: none;
+        border-radius: 20px;
+        margin-top: 10px;
+        transition: background-color 0.3s;
+    }
+
+    .btn-details:hover {
+        background-color: #e0a800;
+    }
+</style>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
